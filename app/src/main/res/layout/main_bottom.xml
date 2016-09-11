@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_bottom"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:paddingTop="3dp"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/tab_linear_1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/tab_image_1"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/mymusic_n" />
+
+        <TextView
+            android:id="@+id/tab_text_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我的" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tab_linear_2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/tab_image_2"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/yuefriend_n" />
+
+        <TextView
+            android:id="@+id/tab_text_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="乐友" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tab_linear_3"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/tab_image_3"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/found_n" />
+
+        <TextView
+            android:id="@+id/tab_text_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发现" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

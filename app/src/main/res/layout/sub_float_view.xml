@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    android:gravity="center_vertical">
+    <com.mymiu.myview.CircleImageView
+        android:id="@+id/loop"
+        android:layout_width="@dimen/float_menu_btn_small"
+        android:layout_height="@dimen/float_menu_btn_small"
+        android:src="@drawable/repeat"
+        app:civ_border_width="@dimen/civ_border_width"
+        app:civ_border_color="@color/colorGray"/>
+    <com.mymiu.myview.CircleImageView
+        android:id="@+id/last"
+        android:layout_width="@dimen/float_menu_btn_naomal"
+        android:layout_height="@dimen/float_menu_btn_naomal"
+        android:layout_marginLeft="@dimen/float_menu_btn_margin"
+        android:src="@drawable/back" />
+    <com.mymiu.myview.CircleImageView
+        android:id="@+id/pause"
+        android:layout_width="@dimen/float_menu_btn_large"
+        android:layout_height="@dimen/float_menu_btn_large"
+        android:layout_marginRight="@dimen/float_menu_btn_margin"
+        android:layout_marginLeft="@dimen/float_menu_btn_margin"
+        android:src="@drawable/playing_button"
+        app:civ_border_width="@dimen/civ_border_width"
+        app:civ_border_color="@color/colorGray"/>
+    <com.mymiu.myview.CircleImageView
+        android:id="@+id/next"
+        android:layout_width="@dimen/float_menu_btn_naomal"
+        android:layout_height="@dimen/float_menu_btn_naomal"
+        android:layout_marginRight="@dimen/float_menu_btn_margin"
+        android:src="@drawable/go" />
+    <com.mymiu.myview.CircleImageView
+        android:id="@+id/menu"
+        android:layout_width="@dimen/float_menu_btn_small"
+        android:layout_height="@dimen/float_menu_btn_small"
+        android:src="@drawable/more"
+        app:civ_border_width="@dimen/civ_border_width"
+        app:civ_border_color="@color/colorGray"/>
+
+</LinearLayout>

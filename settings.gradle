@@ -1,0 +1,2 @@
+include ':StackBlur', ':anim', ':searchviewlayout', ':wave', ':commonrefreshlayout', ':chat'
+include ':app'

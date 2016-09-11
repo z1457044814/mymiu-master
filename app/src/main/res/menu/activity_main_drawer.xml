@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/nav_users"
+            android:icon="@drawable/user_vector"
+            android:title="@string/users" />
+        <item
+            android:id="@+id/nav_message"
+            android:icon="@drawable/speech_vector"
+            android:title="@string/message" />
+        <item
+            android:id="@+id/nav_download"
+            android:icon="@drawable/download_vector_1"
+            android:title="@string/download" />
+        <item
+            android:id="@+id/nav_favorite"
+            android:icon="@drawable/folder_vector"
+            android:title="@string/favorite" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/settings_vector"
+            android:title="@string/setting" />
+    </group>
+
+
+</menu>
